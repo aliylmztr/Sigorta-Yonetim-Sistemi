@@ -7,6 +7,5 @@ public class HealthInsurance extends Insurance {
     @Override
     public double calculate() {
         return (this.getPrice() * 0.15);
-
     }
 }
