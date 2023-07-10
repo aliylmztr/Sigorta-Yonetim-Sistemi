@@ -27,7 +27,7 @@ Sigorta firması için bir yazılım yaptığınızı düşünün. Sigorta firma
 
 - yaş (int),
 
-- adres listesi (ArrayList<Address>)
+- adres listesi (ArrayList<Address>) 
 
 - sisteme son giriş tarihi (Date)
 
