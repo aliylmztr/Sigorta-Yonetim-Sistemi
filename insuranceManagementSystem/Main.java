@@ -5,7 +5,7 @@ public class Main {
 
         AccountManager accountManager = new AccountManager();
 
-        User user1 = new User("Ali", "YILMAZ", "aliyilmaztr96@gmail.com", "123456", "Yazılım Geliştiricisi", 27);
+        User user1 = new User("Ali", "YILMAZ", "aliyilmaz@gmail.com", "123456", "Yazılım Geliştiricisi", 27);
 
         user1.getInsurances().add(new CarInsurance(100000));
         user1.getInsurances().add(new HealthInsurance(75000));
@@ -21,7 +21,7 @@ public class Main {
 
         accountManager.getDataList().add(account1);
 
-        accountManager.login("aliyilmaztr96@gmail.com", "123456");
+        accountManager.login("aliyilmaz@gmail.com", "123456");
 
     }
 }
